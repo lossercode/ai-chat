@@ -1,0 +1,60 @@
+@keyframes slide-down {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-slide-down {
+    animation: slide-down 1s ease-out;
+  }
+
+  .ref_cycle {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 10px;
+    height: 16px;
+    line-height: 16px;
+    min-width: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .15);
+    text-align: center;
+    color: black;
+    position: relative;
+    top: -6px;
+    margin: 0 4px;
+  }
+
+
+  /* .chat-bubble p, .chat-bubble li, .chat-bubble h1,.chat-bubble h2,.chat-bubble h3,.chat-bubble h4 {
+    margin-bottom: 20px;
+  } */
+  /* .chat-bubble h1,
+  .chat-bubble h2,
+  .chat-bubble h3,
+  .chat-bubble h4,
+  .chat-bubble h5,
+  .chat-bubble h6,
+  .chat-bubble ol,
+  .chat-bubble li,
+  .chat-bubble p ,
+  .chat-bubble ul{
+    all: revert;
+  }   */
+
+  .chat-bubble *:not(span) {
+    all: revert;
+  }
+
+
+  .chat-bubble .ref_cycle:hover {
+    background: #1677ff;
+    color: #fff;
+  }
+
+  /* .chat-bubble {
+    display: ;
+  } */
